@@ -1,0 +1,31 @@
+html{
+  font-size: 62.5%;
+}
+.content__block{
+  box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.4);
+  padding: 2rem 2.5rem;
+  border-radius: .5rem;
+  margin: 1.5rem 1rem;
+  position: relative;
+  background-color: white;
+  font-size: 1.7rem;
+z-index: 2;
+  
+}
+.top-cat,.bottom-cat{
+  width: 12rem;
+  height: 12rem;
+  background-image: url('https://www.dropbox.com/s/mqapcs2hsf7k4yp/cat-expressions_03.png?dl=1');
+  background-position: center center;
+  background-size: cover;
+}
+.bottom-cat{
+  float: right;
+  margin-top: -8rem;
+  transform: rotate(180deg)
+  /* opacity: .999999; */
+}
+/* opacity and transform property change the elements in its own position */
+.top-cat{
+  margin-bottom: -8rem;
+}
